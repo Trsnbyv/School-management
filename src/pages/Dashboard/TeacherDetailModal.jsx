@@ -17,7 +17,9 @@ function TeacherDetailModal() {
   return (
     <div className="w-[82%] overflow-y-auto h-[100vh]">
     <div className="bg-[#FCFAFA] w-[100%] flex items-center justify-between px-[125px] py-[25px]">
-      <button onClick={() => navigate(-1)} className="bg-gray-500 text-white px-4 py-2 rounded">Back</button>
+      <button  onClick={() => navigate(-1)} className="back-btn bg-[#152259] text-white px-3 py-3 rounded">
+        <p className="ml-[25px] font-semibold">Back</p>
+      </button>
       <div className="flex items-center gap-[16px]">
         <img
           src={NotificationIcon}
