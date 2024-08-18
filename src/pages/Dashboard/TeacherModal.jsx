@@ -42,9 +42,7 @@ const TeacherModal = () => {
       "teachers",
       JSON.stringify([...existingTeachers, teacherInfo])
     );
-    console.log(teacherInfo);
-    console.log();
-    
+
     navigate("/teachers");
   };
 
