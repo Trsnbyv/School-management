@@ -1,7 +1,7 @@
 import './App.css';
 import { Context } from "./context/Context";
 import { useContext } from 'react';
-import Dashboard from './routes/Dashboard/Index';
+import Dashboard from './routes/Dashboard';
 import Login from './routes/Login/Index';
 import { Toaster } from 'react-hot-toast';
 
