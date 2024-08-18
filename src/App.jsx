@@ -2,7 +2,7 @@ import './App.css';
 import { Context } from "./context/Context";
 import { useContext } from 'react';
 import Dashboard from './routes/Dashboard';
-import Login from './routes/Login/Index';
+import Login from './routes/Login';
 import { Toaster } from 'react-hot-toast';
 
 function App() {
