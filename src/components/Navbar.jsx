@@ -4,7 +4,9 @@ import {BillingIcon,DashboardIcon,ExamsIcon,FeaturesIcon,SettingsIcon,StudentsIc
 function Navbar() {
   return (
     <div className="w-[18%] overflow-y-auto bg-[#152259] pt-[26px] flex flex-col items-center h-[100vh]">
-      <img src={SiteLogo} alt="sitelogo" width={65} height={65} className='mb-[22px]'/>
+      <a href="/">
+       <img src={SiteLogo} alt="sitelogo" width={65} height={65} className='mb-[22px]'/>
+      </a>
       <p className='text-[14px] leading-[17px] font-semibold text-white mb-[40px]'>Udemy Inter. school</p>
       <ul className='flex flex-col items-center gap-[8px] pt-[16px] border-[#BDBDBD] border-t-[1px] w-full'>
         <li className='dashboard-item'>
