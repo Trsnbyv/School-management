@@ -260,7 +260,7 @@ function Teachers() {
                       className="w-[34px] h-[34px] rounded-[50%]"
                     />
                   ) : (
-                    "No Image"
+                    ""
                   )}
                   <span className="text-[14px] capitalize leading-[16px] font-medium text-gray-900">
                     {teacher.fullName}
