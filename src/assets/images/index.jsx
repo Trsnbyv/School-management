@@ -1,0 +1,12 @@
+import DashboardIcon from './dashboard.svg'
+import StudentsIcon from './students.svg'
+import BillingIcon from './billing.svg'
+import SettingsIcon from './settings.svg'
+import ExamsIcon from './exams.svg'
+import FeaturesIcon from './features.svg'
+import NotificationIcon from './notification-icon.svg'
+import AddAdminsIcon from './add-admins.svg'
+import AddClassesIcon from './add-classes.svg'
+import AddStudentsIcon from './add-students.svg'
+import NoTeachersImg from './no-teachers.png'
+export {BillingIcon,DashboardIcon,ExamsIcon,FeaturesIcon,SettingsIcon,StudentsIcon,NotificationIcon,AddAdminsIcon,AddClassesIcon,AddStudentsIcon,NoTeachersImg}
