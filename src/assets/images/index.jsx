@@ -9,4 +9,9 @@ import AddAdminsIcon from './add-admins.svg'
 import AddClassesIcon from './add-classes.svg'
 import AddStudentsIcon from './add-students.svg'
 import NoTeachersImg from './no-teachers.png'
-export {BillingIcon,DashboardIcon,ExamsIcon,FeaturesIcon,SettingsIcon,StudentsIcon,NotificationIcon,AddAdminsIcon,AddClassesIcon,AddStudentsIcon,NoTeachersImg}
+import MoreIcon from './more-icon.svg'
+import DeleteIcon from './delete-icon.svg'
+import HatIcon from './hat-icon.svg'
+import PhoneIcon from './phone-icon.svg'
+import MailIcon from './mail-icon.svg'
+export {BillingIcon,DashboardIcon,ExamsIcon,FeaturesIcon,SettingsIcon,StudentsIcon,NotificationIcon,AddAdminsIcon,AddClassesIcon,AddStudentsIcon,NoTeachersImg,DeleteIcon,MoreIcon,HatIcon,MailIcon,PhoneIcon}

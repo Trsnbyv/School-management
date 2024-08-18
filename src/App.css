@@ -5,6 +5,7 @@
 ::-webkit-scrollbar{
   display: none;
 }
+
 body{
   font-family:'Kumbh Sans';
 }
@@ -49,4 +50,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .dashboard-item .active{
   background-color: #509CDB;
+}
+textarea {
+  resize: none;
 }

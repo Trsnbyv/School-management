@@ -6,5 +6,6 @@ import Exams from "./Exams"
 import Features from "./Features"
 import Settings from "./Settings"
 import TeacherModal from "./TeacherModal"
+import TeacherDetailModal from "./TeacherDetailModal"
 
-export {Home, Students, Teachers, Billing, Exams, Features, Settings, TeacherModal}
+export {Home, Students, Teachers, Billing, Exams, Features, Settings, TeacherModal, TeacherDetailModal}

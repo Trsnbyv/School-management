@@ -114,7 +114,7 @@ const TeacherModal = () => {
             </label>
             <label className="font-medium text-[14px] leading-[17px] text-[#8A8A8A] flex flex-col gap-[5px]">
               About
-              <input
+              <textarea
                 type="text"
                 placeholder="About"
                 required

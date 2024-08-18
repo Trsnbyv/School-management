@@ -8,6 +8,7 @@ import {
   Features,
   Settings,
   TeacherModal,
+  TeacherDetailModal,
 } from "../../pages/Dashboard";
 import Navbar from "../../components/Navbar";
 import { TeachersProvider } from "../../context/TeachersContext";
@@ -27,6 +28,7 @@ function DashboardPage() {
               <Route path="/exams" element={<Exams />} />
               <Route path="/features" element={<Features />} />
               <Route path="/teacher-modal" element={<TeacherModal />} />
+              <Route path="/teacher-modal/:id" element={<TeacherDetailModal />} />
             </Routes>
         </TeachersProvider>
       </div>
